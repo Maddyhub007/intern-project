@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Loader2 } from 'lucide-react';
 import { ProductGrid } from '../components/ProductGrid';
-import { getCategoryProducts, searchProducts } from '../services/api';
+import { searchProducts } from '../services/api';
 import { Product } from '../types';
 
 export const CategoryPage: React.FC = () => {
